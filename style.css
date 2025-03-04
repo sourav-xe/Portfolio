@@ -43,8 +43,8 @@
         top: 0;
         left: 0;
         width: 100%;
-        padding: 1.5rem 9%;
-        background: #000000;
+        padding: 0.5rem 9%;
+        background: #101010;
         display: flex;
          justify-content: space-between;
         align-items: center;
@@ -57,7 +57,7 @@
         margin-top: 10px;
         font-size: 2.5rem;
         font-weight: 600;
-        color:#0bc1f3;
+        color:#f37f0b;
         cursor: pointer;
         transition: 0.3s ease;
         text-decoration: none; /* No underline */
@@ -90,6 +90,7 @@
     .navbar a:hover, 
     .navbar a.active {
         border-bottom: 3px solid var(--main-color);
+        color: #00d7f3;
     }
 
     #menu-icon {
@@ -275,10 +276,10 @@
 
 .Skill-box:hover{
     background: white;
-    color: var(--main-color);
+    color: black;
     transform: scale(1.03);
     box-shadow: 0 0 25px var(--main-color),
-                0 0 100px var(--main-color);
+                0 0 50px var(--main-color);
                 transform: scale(1.02);
 }
 .Skill-box .Skill-info{
@@ -425,7 +426,7 @@
 }
 
 
-/* -conact me---------------- */
+/* -----------------------conact me---------------- */
 
 .contact{
     margin: 0;
@@ -525,7 +526,13 @@
     position: relative;
     width: 50%;
     box-sizing: border-box;
-    ;
+    
+}
+
+.content:hover{
+    box-shadow: 0 0 25px var(--main-color),
+                0 0 50px var(--main-color);
+                transform: scale(1.02);
 }
 
 .container::after {
